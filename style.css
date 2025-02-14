@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+}
+
+html
+body {
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+}
+
+.nav {
+    padding-top: 10px;
+    color: black;
+}
+
+.nav__list {
+    position: fixed;
+    width: 100%;
+    background-color: lightblue;
+    font-size: 25px;
+    top: 0;
+    z-index: 1;
+    padding-left: 600px;
+}
+
+.nav__list a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 17px;
+    float: left;
+}
+
+.nav__link {
+    width: 300px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.birthday {
+    height: 100vh;
+    background-image: url(img/c270a2ceee073c11d6c355ddb4cd4fa7.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.title {
+    font-size: 50px;
+    font-weight: 80;
+    padding-left: 1100px;
+}
+
+.title1 {
+    padding-left: 1100px;
+    font-weight: 50;
+    font-size: 25px;
+   
+}
+
+.birthday__img {
+    text-align: center;
+    padding-left: 1100px;
+    padding-top: 20px;
+}
+
+.img {
+    height: 500px;
+    border-radius: 30px;
+}
+
+
+.container__family {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 5px;
+}
+
+.family__title {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.family__content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.family__list {
+    margin-bottom: 30px;
+}
+
+
+.family__info {
+   overflow: hidden;
+   position: relative;
+}
+
+.family__photo {
+ width: 350px;
+ height: 350px;
+}
+
+.family__text {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    padding: 10px;
+    background: rgba(201, 201, 201, 0.575);
+    transition: all ease 0.3s;
+}
+
+.family__name {
+    text-align: center;
+}
+
+p {
+    margin: 0;
+}
+
+.p1 {
+    margin-top: 5px;
+}
+
